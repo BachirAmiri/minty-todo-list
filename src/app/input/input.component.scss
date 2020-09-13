@@ -1,0 +1,29 @@
+.input-field {
+  input {
+    background-color: white;
+    height: 20px;
+    font-size: 16px;
+  }
+}
+
+.input-container {
+  width: 100%;
+  display: table;
+  border: 6px dashed #bbddbe;
+  border-radius: 25px;
+}
+
+mat-form-field.mat-form-field {
+  width: 70%;
+  min-width: 200px;
+  margin-left: 15px;
+  margin-right: 10px;
+}
+
+button.mat-raised-button {
+    float: right;
+    background-color: #529187;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+
