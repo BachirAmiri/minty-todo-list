@@ -7,3 +7,4 @@ Yet another todo-list(Daring aren't we ?) in a mint color theme.
 ## Dependecy 
 - Angular Material for basic UI components  
 - UUID for ... fancy id 
+- angular-cli-ghpages to deploy on github pages
