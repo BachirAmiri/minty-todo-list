@@ -1,0 +1,42 @@
+.margin {
+  margin: 0 10px;
+}
+
+.mat-list-item {
+    color : white;
+    font-size: 16px;
+    border: 2px solid #B7CBBC;
+    border-radius: 20px;
+    margin-top: 5px;
+    background-color: #529187;
+}
+
+.mat-icon-button {
+  color: #DACC7D;
+  float: right;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+.mat-button-base {
+  position: absolute;
+  right: 0;
+  //top: 0;
+}
+
+::ng-deep .mat-form-field-underline {
+    display: none;
+}
+
+// overwrite checkbox background
+::ng-deep .mat-checkbox-checked .mat-checkbox-background, 
+.mat-checkbox-indeterminate .mat-checkbox-background {
+  background-color: white !important;
+}
+
+// overwrite ripple overlay on hover and click
+::ng-deep .mat-checkbox:not(.mat-checkbox-disabled) .mat-checkbox-ripple .mat-ripple-element {
+  background-color: #B7CBBC !important;
+}

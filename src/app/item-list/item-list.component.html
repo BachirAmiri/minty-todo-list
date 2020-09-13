@@ -1,0 +1,7 @@
+<div class="list">
+  <mat-list>
+    <div *ngFor="let item of itemList">
+      <app-item [receivedItem]="item" (onDelete)="deleteElem($event)"></app-item>
+    </div>
+  </mat-list>
+</div>

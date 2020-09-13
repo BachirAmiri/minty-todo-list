@@ -1,0 +1,8 @@
+<mat-list-item 
+[ngClass]="{'strike': checked === true}">
+    <mat-checkbox class="margin" [(ngModel)]="checked"></mat-checkbox>
+    {{receivedItem.name}}
+    <button mat-icon-button  aria-label="delete" (click)="delete()">
+        <mat-icon>cancel</mat-icon>
+    </button>
+</mat-list-item>
